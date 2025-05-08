@@ -158,6 +158,11 @@ p {
     margin-bottom: 30px;
 }
 
+.narrow {
+  max-width: 700px;  /* or 60ch for character-based sizing */
+  margin: 0 auto;     /* center horizontally */
+}
+
 .container {
     max-width: 800px;
     margin: 40px auto;
