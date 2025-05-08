@@ -27,14 +27,13 @@ body {
 }
 
 .nav-container > nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-container > nav li {
-  display: inline-block;
-  margin-right: 20px;
+  width: 50%; /* increase the width to make sure it fits */
+  margin-right: 10px;
 }
 
 /* Media query for small screens (e.g., tablets and mobile phones) */
