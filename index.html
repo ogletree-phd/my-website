@@ -1,36 +1,38 @@
-<!-- index.html (Home page) -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scott Ogletree</title>
+    <meta name="description" content="Scott Ogletree - Lecturer and researcher at the University of Edinburgh focusing on wellbeing and the environment." />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
 
     <!-- Navigation bar -->
-    <div class=".nav-container">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="misc.html">Misc</a></li>
-        </ul>
-    </nav>
-    </div>
+    <header class="nav-container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="misc.html">Misc</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Main content -->
-    <div class="content">
-        <h1 align="center">S Scott Ogletree, PhD</h1>
-        <h2 align="center">Lecturer at the University of Edinburgh</h2>
-        <p align="center">Scott is a Lecturer (Assistant Professor in the USA system) in the Edinburgh School of Architecture and Landscape Architecture at the Edinburgh College of Art, all within the University of Edinburgh. He is a researcher and instructor interested in connections between human well-being and the environment. Scott investigates these connections using spatial and statistical tools to better understand how the natural world impacts people.<br><br> Scott is also the Programme Director for the MSc Landscape and Wellbeing</p>
-        
-        <!-- 2 columns with a list in each -->
+    <main>
+        <h1 class="centered">S Scott Ogletree, PhD</h1>
+        <h2 class="centered">Lecturer at the University of Edinburgh</h2>
+        <p class="centered">
+            Scott is a Lecturer (Assistant Professor in the USA system) in the Edinburgh School of Architecture and Landscape Architecture at the Edinburgh College of Art, all within the University of Edinburgh. He is a researcher and instructor interested in connections between human well-being and the environment. Scott investigates these connections using spatial and statistical tools to better understand how the natural world impacts people.<br><br>
+            Scott is also the Programme Director for the MSc Landscape and Wellbeing.
+        </p>
+
         <div class="columns">
-            <div class="column">
+            <section class="column">
                 <h2>Interests</h2>
                 <ul>
                     <li>Data and geospatial science</li>
@@ -38,36 +40,38 @@
                     <li>Space and place</li>
                     <li>Environmental and social determinants of health</li>
                 </ul>
-            </div>
+            </section>
 
-            <div class="column">
+            <section class="column">
                 <h2>Education</h2>
                 <ul>
-                    <li>PhD<br><span style="font-size: 12px; color: #666; display:inline-block;">Clemson University</span></li>
-                    <li>Master in Landscape Architecture<br><span style="font-size: 12px; color: #666; display:inline-block;">Clemson University</span></li>
-                    <li>BS Ed in Education<br><span style="font-size: 12px; color: #666; display:inline-block;">University of Georgia</span></li>
+                    <li>PhD<br><span class="small-muted">Clemson University</span></li>
+                    <li>Master in Landscape Architecture<br><span class="small-muted">Clemson University</span></li>
+                    <li>BS Ed in Education<br><span class="small-muted">University of Georgia</span></li>
                 </ul>
-            </div>
-        </div>        
-		
-    </div>
-    
-    <div class="linkbox">
-		<h2>Links</h2>
-		<p>
-		<a href="https://www.research.ed.ac.uk/en/persons/scott-ogletree-2" target="_blank">
-		<img src="UoE_icon.png" alt="Link Icon" width="50" height="48"></a><br>
-		<a href="https://orcid.org/0000-0002-2607-6017" target="_blank">
-		<img src="icons8-orcid-96.png" alt="Link Icon" width="50" height="50"></a><br>
-		<a href="https://github.com/ogletree-phd" target="_blank">
-		<img src="icons8-github-96.png" alt="Link Icon" width="50" height="50"></a><br>
-		
-		</p>
-		</div>
-		
-    <!-- JavaScript and CSS links for navigation bar functionality
-(optional) -->
+            </section>
+        </div>
+        
+        <section class="linkbox">
+            <h2>Links</h2>
+            <p>
+                <a href="https://www.research.ed.ac.uk/en/persons/scott-ogletree-2" target="_blank">
+                    <img src="UoE_icon.png" alt="University of Edinburgh Profile" width="50" height="48" />
+                    <span class="sr-only">University of Edinburgh</span>
+                </a><br>
+                <a href="https://orcid.org/0000-0002-2607-6017" target="_blank">
+                    <img src="icons8-orcid-96.png" alt="ORCID Profile" width="50" height="50" />
+                    <span class="sr-only">ORCID</span>
+                </a><br>
+                <a href="https://github.com/ogletree-phd" target="_blank">
+                    <img src="icons8-github-96.png" alt="GitHub Profile" width="50" height="50" />
+                    <span class="sr-only">GitHub</span>
+                </a>
+            </p>
+        </section>
+    </main>
+
+    <!-- Optional JavaScript -->
     <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
 </body>
 </html>
