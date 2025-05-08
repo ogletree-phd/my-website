@@ -32,7 +32,7 @@ body {
 }
 
 .nav-container > nav li {
-  width: 50%; /* increase the width to make sure it fits */
+  width: 75%; /* increase the width to make sure it fits */
   margin-right: 10px;
 }
 
